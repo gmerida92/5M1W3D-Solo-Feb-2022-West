@@ -8,7 +8,7 @@ function Movies({ movies }) {
       <nav>
         {movies.map((movieObj) => {
           return (
-            <NavLink style={{padding:'10px'}}key={movieObj.id} to={`/movies/${movieObj.id}`}>{movieObj.title}</NavLink>
+            <NavLink style={{padding:'10px'}} key={movieObj.id} to={`/movies/${movieObj.id}`}>{movieObj.title}</NavLink>
           )
         })}
       </nav>
